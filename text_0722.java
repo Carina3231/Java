@@ -44,7 +44,6 @@ public class text_0722 {
         int num2 = str1.compareTo(str3);
         System.out.println("num1 = " + num1);
         System.out.println("num2 = " + num2);
-        
   
  
     }
