@@ -8,6 +8,9 @@ public class hello{
 
     }
 }
+
+//check chek
+
 //摸鱼
 
 /*摸鱼啊摸鱼 */
