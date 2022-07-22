@@ -37,14 +37,10 @@ public class text_0722 {
         // concat(String str)----在原有的字符串的基础上加上指定字符串
 
         //compareTo()------------按照字典顺序进行比较，逐位比较，相同返回0，不同返回负数。
-        String str1 = new String("abacbacbsc");
-        String str2 = new String("abacbacbsc");
-        String str3 = new String("ahsbfdjdhn");
-        int num1 = str1.compareTo(str2);
-        int num2 = str1.compareTo(str3);
-        System.out.println("num1 = " + num1);
-        System.out.println("num2 = " + num2);
-        //check check
- 
+        String str = new String("114.128.15.9");
+        String [] div = str.split("\\.");
+        for (String a : div) {
+            System.out.print("[" + a + "]");
+        }
     }
 }
