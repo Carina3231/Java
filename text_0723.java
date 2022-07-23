@@ -63,6 +63,7 @@ public class text_0723 {
             }
             System.out.println();
         }
+        myScanner.close();
  
     }
 }
