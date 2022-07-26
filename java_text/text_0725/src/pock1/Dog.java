@@ -1,10 +1,11 @@
 package pock1;
 
 public class Dog {
-        public int age;
-        public int size;
-        public String name;
-        public String colour;
+        int age;
+        int size;
+        String name;
+        String colour;
+        String breed;
         void eat(){
             System.out.println("hhhhh");
         }
@@ -12,13 +13,20 @@ public class Dog {
             System.out.println("xxxxx");
     
         }
-        public void myDog(int age, int size, String name, String colour){
+
+        //重载构造器
+        public Dog(int age, String breed, int size, String name, String colour){
             this.age = age;
             this.size = size;
             this.name = name;
             this.colour = colour;
+            this.breed = breed;
         }
         public void myPrint(){
-            System.out.println(" name: " + name + " age: " + age + " size: " + size + " colour: " + colour);
+            System.out.println(" name: " + name + " 种类是： "+ breed +  " age: " + age + " size: " + size + " colour: " + colour);
+        }
+        //空构造器
+        public Dog(){
+
         }
        }
